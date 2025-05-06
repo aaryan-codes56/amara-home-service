@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import './Footer.css'
 import { Outlet } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <>
-    <Outlet/>
+    <Outlet />
     <footer className="footer">
       <div className="footer-container">
       <div className="footer-section">
@@ -39,6 +39,7 @@ const Footer = () => {
       <p className="footer-bottom">© 2025 Amara Private Limited. All rights reserved.</p>
     </footer>
     </>
+    
   )
 }
 

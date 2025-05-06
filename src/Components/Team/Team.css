@@ -1,0 +1,56 @@
+.team-container {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.team-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+
+.team-card {
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.team-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #0f5a45;
+}
+
+.team-name {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 8px 0 5px;
+  color: #222;
+}
+
+
+.team-role {
+  font-size: 16px;
+  color: #777;
+}
