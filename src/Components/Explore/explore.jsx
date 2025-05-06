@@ -56,7 +56,7 @@ const Explore = () => {
       </div>
       </div>
       <Link to='/services'><button className="explore-btn">Explore All Services</button></Link>
-            </div>
+    </div>
 )
 }
 

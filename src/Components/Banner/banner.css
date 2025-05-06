@@ -2,9 +2,10 @@
     align-items: center;
     display: flex;
     gap: 30px;
-    /* padding: 10px 0; */
     justify-content: space-between;
-    margin: 50px 50px;
+    margin: 50px 70px 80px 70px;
+
+    
   }
   
   .banner-image{

@@ -3,6 +3,7 @@ import './Hero.css'
 import { Outlet } from 'react-router-dom'
 import Explore from '../Explore/explore'
 import Banner from '../Banner/banner'
+import Most from '../Most/most'
 
 const Hero = () => {
   return (
@@ -22,6 +23,7 @@ const Hero = () => {
     </div>
     <Explore  />
     <Banner />
+    <Most />
     </>
   )
 }
