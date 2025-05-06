@@ -43,6 +43,7 @@ const Explore = () => {
       </div>
       <div className="service-card">
           <img src={water_img} alt="" className='service-icon'/>
+          <p className="service-tag">NEW</p>
           <p className='service-name'>Native Water Purifier</p>
       </div>
       <div className="service-card">
@@ -55,9 +56,9 @@ const Explore = () => {
       </div>
       </div>
       <Link to='/services'><button className="explore-btn">Explore All Services</button></Link>
-    </div>
-  );
-};
+            </div>
+)
+}
 
 export default Explore;
 

@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import { Outlet } from 'react-router-dom'
 import Explore from '../Explore/explore'
+import Banner from '../Banner/banner'
 
 const Hero = () => {
   return (
@@ -20,6 +21,7 @@ const Hero = () => {
     </div>
     </div>
     <Explore  />
+    <Banner />
     </>
   )
 }
