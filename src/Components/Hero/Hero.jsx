@@ -1,9 +1,9 @@
 import React from 'react'
 import './Hero.css'
 import { Outlet } from 'react-router-dom'
-import Explore from '../Explore/explore'
-import Banner from '../Banner/banner'
-import Most from '../Most/most'
+import Explore from '../Explore/Explore'
+import Banner from '../Banner/Banner'
+import Most from '../Most/Most'
 import Footer from '../Footer/Footer'
 
 const Hero = () => {
