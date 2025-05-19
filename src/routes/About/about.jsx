@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import './about.css'
 import Team from '../../Components/Team/team'
 
 const About = () => {
