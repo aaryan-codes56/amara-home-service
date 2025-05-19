@@ -1,0 +1,25 @@
+.banner-box {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin: 50px 70px 80px 70px;
+
+    
+  }
+  
+  .banner-image{
+    width: 30%;
+    height: auto;
+    border-radius: 12px;
+    transition: all 0.3s;
+  }
+
+
+  .banner-image:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+  }
+
