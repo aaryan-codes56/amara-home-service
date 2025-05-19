@@ -34,7 +34,7 @@ const Team = () => {
 
         <div className="team-card">
           <img src="" alt="" className="team-icon" />
-          <p className="team-name">Gyanvi Singh</p>
+          <p className="team-name">Rex Singh</p>
           <p className="team-role">Chief Business Officer</p>
         </div>
 
@@ -46,7 +46,7 @@ const Team = () => {
 
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Team;

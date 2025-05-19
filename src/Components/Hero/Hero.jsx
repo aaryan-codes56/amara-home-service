@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom'
 import Explore from '../Explore/explore'
 import Banner from '../Banner/banner'
 import Most from '../Most/most'
+import Footer from '../Footer/Footer'
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
     <div className='hero'>
     <div className='hero-container'>
       <div className="hero-content">
-        <h1>Welcome to Amara Home Service</h1>
+        <h1>Welcome to Amara Home Solutions</h1>
         <p>Your one stop solution for all home services.</p>
         <div className="search-box">
           <input type="text" placeholder="Search for services like plumber, electrician..." />
@@ -24,6 +25,7 @@ const Hero = () => {
     <Explore  />
     <Banner />
     <Most />
+    <Footer />
     </>
   )
 }
