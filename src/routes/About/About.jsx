@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Team from '../../Components/Team/team'
+import Team from '../../Components/Team/Team'
 
 const About = () => {
   return (
