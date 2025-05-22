@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Layout from './Layout';
-import Home from './routes/home/home';
+import Home from './routes/Home/Home';
 import About from './routes/About/About';
 import Services from './routes/Services/Services';
 import Booking from './routes/Booking/Booking';
