@@ -1,0 +1,123 @@
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 60px 80px;
+    background-color: #f9fafb;
+  }
+  
+  .contact-form {
+    flex: 1;
+    max-width: 520px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    margin: 70px;
+  }
+  
+  .contact-form h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #111827;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #374151;
+  }
+  
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select {
+    width: 100%;
+    padding: 14px 16px;
+    margin-top: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #f9fafb;
+    transition: border 0.2s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus,
+  .contact-form select:focus {
+    border-color: #7c3aed;
+    outline: none;
+  }
+  
+  .phone-input {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .phone-input select {
+    width: 90px;
+  }
+  
+  .contact-form button {
+    margin-top: 30px;
+    background-color: #7c3aed;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #6d28d9;
+  }
+  
+  .contact-info-cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 480px;
+    margin: 70px;
+  }
+  
+  .info-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+  }
+  
+  .info-card h4 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .info-card p {
+    font-size: 14.5px;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+  
+  .info-card a {
+    display: inline-block;
+    margin-top: 4px;
+    color: #7c3aed;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .info-card a:hover {
+    color: #6d28d9;
+  }
