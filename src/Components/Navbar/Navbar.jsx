@@ -19,7 +19,6 @@ const Navbar = () => {
           <button className="signup-btn"><a href='#' className='sign-link'>Sign Up</a></button>
       </div>
     </div>
-    <Outlet />
     </Fragment>
   )
 }
