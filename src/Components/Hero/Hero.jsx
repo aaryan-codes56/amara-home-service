@@ -5,6 +5,8 @@ import Explore from '../Explore/Explore'
 import Banner from '../Banner/Banner'
 import Most from '../Most/Most'
 import Footer from '../Footer/Footer'
+import FemaleSalon from '../FemaleSalon/FemaleSalon'
+import MaleSalon from '../MaleSalon/MaleSalon'
 
 const Hero = () => {
   return (
@@ -25,6 +27,8 @@ const Hero = () => {
     <Explore  />
     <Banner />
     <Most />
+    <FemaleSalon />
+    <MaleSalon />
     <Footer />
     </>
   )

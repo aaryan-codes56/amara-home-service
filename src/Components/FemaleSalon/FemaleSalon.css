@@ -1,0 +1,71 @@
+.female-salon {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 100px 70px;
+  }
+  
+  
+  .female-salon-title h2 {
+    font-size: 44px;
+    font-weight: 600;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  
+  .female-salon-cards {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 10px;
+    scrollbar-width: none; 
+  }
+  
+  .female-salon-cards::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .female-salon-card {
+    background: #fdfdfd;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    margin: 8px;
+    width: 280px;
+    flex-shrink: 0;
+  }
+  
+  .female-salon-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .female-salon-card img {
+    width: 100%;
+    height:100%;
+    object-fit: fill; 
+    border-radius: 10px;
+  }
+  
+  .smart-lock-banner {
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    max-width: 90%;
+    border-radius: 16px;
+  }
+  
+  .smart-lock-banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 16px;
+    transition: transform 0.3s ease
+  }
+  
+  .smart-lock-banner img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    cursor: pointer
+  }
+  
