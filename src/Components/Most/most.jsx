@@ -14,13 +14,14 @@ const Most = () => {
     <div className="booked">
     <div className="booked-section">
     <h2 className="most-title">Most Booked Services</h2>
+
     <div className="booked-cards">
+
       <div className="most-booked">
         <img src={most1_img} alt="" className="most-icon" />
         <p className="most-name">Rooms/Walls Painting</p>
         <p className="rating">
         <i class="fa fa-star" aria-hidden="true"></i>
-          
           4.79 <span>(4K)</span>
         </p>
         <p className="price">₹49</p>

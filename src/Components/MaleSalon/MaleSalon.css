@@ -1,7 +1,7 @@
 .male-salon {
   padding: 20px;
   background-color: #ffffff;
-  margin: 70px; 
+  margin: 60px 70px; 
 }
 
 .male-salon-title h2 {
@@ -17,6 +17,7 @@
   gap: 80px;
   padding-bottom: 10px;
   flex-wrap: wrap; 
+  cursor: pointer;
 }
 
 .male-salon-card {

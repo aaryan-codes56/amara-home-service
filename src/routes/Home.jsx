@@ -6,6 +6,7 @@ import Most from '../Components/Most/Most';
 import FemaleSalon from '../Components/FemaleSalon/FemaleSalon';
 import MaleSalon from '../Components/MaleSalon/MaleSalon';
 import Appliance from '../Components/Appliance/ApplianceRepair';
+import HomeRepair from '../Components/HomeRepair/HomeRepair';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Most />
       <FemaleSalon />
       <Appliance />
+      <HomeRepair />
       <MaleSalon />
 
     </>

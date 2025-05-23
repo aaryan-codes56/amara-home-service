@@ -1,34 +1,33 @@
-.booked{
-  margin: 20px 70px;
-}
-
-.booked-section {
+.repair {
+    margin: 20px 70px;
+  }
+  
+  .repair-section {
     padding: 20px;
     background-color: #fff;
   }
   
-  .most-title {
+  .repair-title {
     font-size: 44px;
     font-weight: 600;
     padding: 20px;
     margin: auto;
-
   }
   
-  .booked-cards {
+  .repair-cards {
     display: flex;
     overflow-x: auto;
     gap: 10px;
     padding-bottom: 10px;
-    scrollbar-width: none; 
+    scrollbar-width: none;
     cursor: pointer;
   }
   
-  .booked-cards::-webkit-scrollbar {
+  .repair-cards::-webkit-scrollbar {
     display: none;
   }
   
-  .most-booked {
+  .repair-card {
     background: #fdfdfd;
     border-radius: 12px;
     transition: transform 0.3s ease;
@@ -36,25 +35,21 @@
     padding: 8px;
     margin: 8px;
     width: 280px;
-    flex-shrink: 0; /* prevent shrinking in scroll container */
-    
-    
+    flex-shrink: 0;
   }
   
-  .most-booked:hover {
+  .repair-card:hover {
     transform: scale(1.03);
   }
   
-  .most-icon {
+  .repair-icon {
     width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
   }
   
-  
-  
-  .most-name {
+  .repair-name {
     font-size: 16px;
     margin: 10px 0 5px;
     font-weight: 600;
@@ -62,22 +57,19 @@
     min-width: 200px;
   }
   
-  .rating {
+  .repair-rating {
     font-size: 14px;
     color: #555;
     display: flex;
     align-items: center;
     gap: 5px;
     margin: 5px;
-    
   }
   
-  
-  .price {
+  .repair-price {
     font-weight: 600;
     color: #111;
     font-size: 15px;
     margin: 5px;
-    
   }
   
