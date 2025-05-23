@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="info-card">
           <h4>Need help?</h4>
           <p>
-            For any immediate help regarding your bookings, please log-in and visit our Help Center.
+            For any immediate help regarding your bookings, please log in and visit our Help Center.
             <br />
             <a href="#">Open Help Center →</a>
           </p>

@@ -5,7 +5,7 @@ import Banner from '../../Components/Banner/Banner';
 import Most from '../../Components/Most/Most';
 import FemaleSalon from '../../Components/FemaleSalon/FemaleSalon';
 import MaleSalon from '../../Components/MaleSalon/MaleSalon';
-import ApplianceRepair from '../../Components/ApplianceRepair/ApplianceRepair';
+import Appliance from '../../Components/Appliance/ApplianceRepair';
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <Banner />
       <Most />
       <FemaleSalon />
-      <ApplianceRepair />
+      <Appliance />
       <MaleSalon />
 
     </>
