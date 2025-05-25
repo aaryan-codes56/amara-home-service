@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import Team from '../../Components/Team/Team'
+import Investors from '../../Components/Investors/Investors';
 
 const About = () => {
   return (
@@ -33,6 +34,7 @@ const About = () => {
       </div>
     </div>
       <Team />
+      <Investors />
     </>
   );
 };

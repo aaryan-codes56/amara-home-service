@@ -1,0 +1,61 @@
+.investors-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .investors-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  
+  .investors-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 80px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 70px;
+    padding: 0 20px;
+    margin-top: 70px;
+  }
+  
+  .investors-img {
+    height: 120px;
+    max-width: 300px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+    opacity: 0.9;
+  }
+  
+  .investors-img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  
+  .investors-contact {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .investors-contact a {
+    color: #6a0dad;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .investors-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .investors-cta {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #222;
+  }
