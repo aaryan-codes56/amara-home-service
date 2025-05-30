@@ -24,15 +24,14 @@
   }
   
   .investors-img {
-    height: 120px;
-    max-width: 300px;
+    height: 100px;
+    max-width: 200px;
     object-fit: contain;
     transition: all 0.3s ease;
     opacity: 0.9;
   }
   
   .investors-img:hover {
-    filter: grayscale(0%);
     transform: scale(1.08);
     opacity: 1;
   }
@@ -44,7 +43,7 @@
   }
   
   .investors-contact a {
-    color: #6a0dad;
+    color: #0f5a45;
     text-decoration: none;
     font-weight: 500;
   }

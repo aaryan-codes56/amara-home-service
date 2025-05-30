@@ -64,7 +64,7 @@
   
   .contact-form button {
     margin-top: 30px;
-    background-color: #7c3aed;
+    background-color: #0f5a45;
     color: #ffffff;
     border: none;
     border-radius: 10px;
@@ -76,7 +76,7 @@
   }
   
   .contact-form button:hover {
-    background-color: #6d28d9;
+    background-color: #18654f;
   }
   
   .contact-info-cards {
@@ -112,12 +112,12 @@
   .info-card a {
     display: inline-block;
     margin-top: 4px;
-    color: #7c3aed;
+    color: #0f5a45;
     font-weight: 500;
     text-decoration: none;
     transition: color 0.2s ease;
   }
   
   .info-card a:hover {
-    color: #6d28d9;
+    color: #1f9c79;
   }

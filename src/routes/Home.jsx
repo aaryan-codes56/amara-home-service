@@ -19,7 +19,6 @@ const Home = () => {
       <Appliance />
       <HomeRepair />
       <MaleSalon />
-
     </>
   );
 };
