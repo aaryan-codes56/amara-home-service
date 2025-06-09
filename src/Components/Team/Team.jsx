@@ -4,6 +4,8 @@ import team_img1 from '../../assets/about.png';
 import team_img2 from '../../assets/geeta.png';
 import team_img3 from '../../assets/aakansha.jpeg';
 import team_img4 from '../../assets/isha.jpeg';
+import team_img5 from '../../assets/modi.jpeg';
+import team_img6 from '../../assets/ambani.webp';
 
 
 const Team = () => {
@@ -37,14 +39,14 @@ const Team = () => {
         </div>
 
         <div className="team-card">
-          <img src="" alt="" className="team-icon" />
-          <p className="team-name">Rex Singh</p>
+          <img src={team_img5} alt="" className="team-icon" />
+          <p className="team-name">Narendra Modi</p>
           <p className="team-role">Chief Business Officer</p>
         </div>
 
         <div className="team-card">
-          <img src="" alt="" className="team-icon" />
-          <p className="team-name">Rex Singh</p>
+          <img src={team_img6} alt="" className="team-icon" />
+          <p className="team-name">Mukesh Ambani</p>
           <p className="team-role">Chief Human Resources Officer</p>
         </div>
 
