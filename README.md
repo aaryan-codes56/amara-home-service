@@ -1,12 +1,3 @@
-# React + Vite
+# Amara: Home Service Provider Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Amara is a web-based platform that allows users to discover, compare, and book trusted home service providers such as electricians, plumbers, and cleaners. The platform provides users with access to provider listings, reviews, ratings, and business details. Users can search based on location and service type, view authentic reviews, and schedule appointments through a streamlined booking system. Amara brings convenience and trust together for home service needs.
