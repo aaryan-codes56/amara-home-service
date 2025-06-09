@@ -20,6 +20,36 @@ const services = [
     image: "/images/cleaning.jpg",
     description: "Deep cleaning and regular cleaning services.",
   },
+  {
+    id: 4,
+    name: "Pest Control",
+    image: "/images/pestcontrol.jpg",
+    description: "Eliminate pests from your home safely and effectively.",
+  },
+  {
+    id: 5,
+    name: "AC Repair",
+    image: "/images/acrepair.jpg",
+    description: "Maintenance and repair for all air conditioning units.",
+  },
+  {
+    id: 6,
+    name: "Carpentry",
+    image: "/images/carpentry.jpg",
+    description: "Furniture repair and custom woodwork.",
+  },
+  {
+    id: 7,
+    name: "Painting",
+    image: "/images/painting.jpg",
+    description: "Interior and exterior painting services.",
+  },
+  {
+    id: 8,
+    name: "Laundry",
+    image: "/images/laundry.jpg",
+    description: "Pick-up and drop laundry and dry-cleaning service.",
+  },
 ];
 
 const Services = () => {
