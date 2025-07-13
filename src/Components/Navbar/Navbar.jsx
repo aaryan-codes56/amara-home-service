@@ -15,8 +15,8 @@ const Navbar = () => {
         <Link className="nav-link" to='/contact'> <li>Contact Us</li></Link>
       </ul>
       <div className="auth-buttons">
-          <button className="login-btn"><a href='#' className='login-link'>Login</a></button>
-          <button className="signup-btn"><a href='#' className='sign-link'>Sign Up</a></button>
+        <Link to="/login" className="login-btn">Login</Link>
+        <Link to="/signup" className="signup-btn">Sign Up</Link>
       </div>
     </div>
     </Fragment>
