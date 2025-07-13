@@ -1,8 +1,11 @@
-import React from 'react'
-import { SignUp } from '@clerk/clerk-react'
+import React from 'react';
+import { SignUp } from '@clerk/clerk-react';
+import './Auth.css';
 
 export default function Signup() {
   return (
-    <SignUp path="/signup" routing="path" />
-  )
+    <div className="auth-wrapper">
+        <SignUp path="/signup" routing="path" />
+    </div>
+  );
 }

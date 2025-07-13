@@ -1,8 +1,11 @@
-import { SignIn } from '@clerk/clerk-react'
-import React from 'react'
+import React from 'react';
+import { SignIn } from '@clerk/clerk-react';
+import './Auth.css';
 
 export default function Login() {
   return (
-    <SignIn path="/login" routing="path" />
-  )
+    <div className="auth-wrapper">
+        <SignIn path="/login" routing="path" />
+    </div>
+  );
 }
