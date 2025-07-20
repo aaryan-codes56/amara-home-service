@@ -19,20 +19,22 @@ const Explore = () => {
       <h2 className="explore-title">What are you looking for?</h2>
       <div className="explore-grid">
         
-      <div className="service-card">
+      <Link to='/services'> <div className="service-card">
           <img src={women_img} alt="" className='service-icon'/>
           <p className='service-name'>Women's Salon & Spa</p>
-      </div>
+      </div> </Link>
 
     
-      <div className="service-card">
+      <Link to='/services'><div className="service-card">
           <img src={men_img} alt="" className='service-icon'/>
           <p className='service-name'>Men's Salon & Massage</p>
-      </div>
+      </div></Link>
+
+      <Link to='/services'>
       <div className="service-card">
           <img src={ac_img} alt="" className='service-icon'/>
           <p className='service-name'>AC & Appliance Repair</p>
-      </div>
+      </div></Link>
       <div className="service-card">
           <img src={clean_img} alt="" className='service-icon'/>
           <p className='service-name'>Cleaning & Pest Control</p>

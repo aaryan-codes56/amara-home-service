@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Contact Us</h4>
           <p>Email: info@amara.com</p>
-          <p>Phone: +91 7070993967</p>
+          <p>Phone: +91 9897167862</p>
         </div>
 
         <div className="footer-section">

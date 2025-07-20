@@ -1,4 +1,8 @@
 
+.explore-grid a{
+  text-decoration: none;
+  color: #000;
+}
 .explore-container {
     padding: 40px 20px;
     max-width: 1100px;

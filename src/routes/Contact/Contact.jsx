@@ -15,11 +15,6 @@ const Contact = () => {
 
         <label>Enter Phone Number</label>
         <div className="phone-input">
-          <select>
-            <option>+91</option>
-            <option>+1</option>
-            <option>+44</option>
-          </select>
           <input type="tel" placeholder="Phone Number" />
         </div>
 
