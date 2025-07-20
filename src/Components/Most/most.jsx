@@ -7,6 +7,7 @@ import most4_img from '../../assets/gas.png';
 import most5_img from '../../assets/massage.png';
 import most6_img from '../../assets/back.png';
 import most7_img from '../../assets/apartment.png';
+import { Link } from 'react-router-dom';
 
 
 const Most = () => {
@@ -17,6 +18,7 @@ const Most = () => {
 
     <div className="booked-cards">
 
+    <Link to='/services'>
       <div className="most-booked">
         <img src={most1_img} alt="" className="most-icon" />
         <p className="most-name">Rooms/Walls Painting</p>
@@ -26,7 +28,9 @@ const Most = () => {
         </p>
         <p className="price">₹49</p>
       </div>
+    </Link>
       
+    <Link to='/services'>
       <div className="most-booked">
         <img src={most2_img} alt="" className="most-icon" />
         <p className="most-name">Foam-Jet AC Service</p>
@@ -36,6 +40,9 @@ const Most = () => {
         </p>
         <p className="price">₹1,098</p>
       </div>
+    </Link>
+
+    <Link to='/services'>
 
       <div className="most-booked">
         <img src={most3_img} alt="" className="most-icon" />
@@ -46,7 +53,9 @@ const Most = () => {
         </p>
         <p className="price">₹599</p>
       </div>
+    </Link>
 
+      <Link to='/services'>
       <div className="most-booked">
         <img src={most4_img} alt="" className="most-icon" />
         <p className="most-name">Gas Refill & Check Up</p>
@@ -56,7 +65,9 @@ const Most = () => {
         </p>
         <p className="price">₹1,498</p>
       </div>
+      </Link>
 
+      <Link to='/services'>
       <div className="most-booked">
         <img src={most5_img} alt="" className="most-icon" />
         <p className="most-name">Swedish Stress Relief Massage</p>
@@ -66,7 +77,10 @@ const Most = () => {
         </p>
         <p className="price">₹3,999</p>
         </div>
+      </Link>
 
+      
+      <Link to='/services'>
         <div className="most-booked">
         <img src={most6_img} alt="" className="most-icon" />
         <p className="most-name">Deep Tissue Pain Relief Massage</p>
@@ -76,7 +90,9 @@ const Most = () => {
         </p>
         <p className="price">₹3,999</p>
         </div>
+      </Link>
 
+      <Link to='/services'>
         <div className="most-booked">
         <img src={most7_img} alt="" className="most-icon" />
         <p className="most-name">Apartment Termite Control</p>
@@ -86,6 +102,8 @@ const Most = () => {
         </p>
         <p className="price">₹3,999</p>
       </div>
+      </Link>
+
     </div>
   </div>
   </div>

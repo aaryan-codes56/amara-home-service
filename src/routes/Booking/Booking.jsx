@@ -32,6 +32,30 @@ const Booking = () => {
           </div>
         </div>
 
+        <div className="booking-card">
+          <div className="booking-info">
+            <h3>Gas Stove Installation</h3>
+            <p><strong>Date:</strong> 12 July 2025</p>
+            <p className="status status-completed">Completed</p>
+          </div>
+        </div>
+
+        <div className="booking-card">
+          <div className="booking-info">
+            <h3>Massage Service</h3>
+            <p><strong>Date:</strong> 10 July 2025</p>
+            <p className="status status-pending">Pending</p>
+          </div>
+        </div>
+
+        <div className="booking-card">
+          <div className="booking-info">
+            <h3>Carpentry Work</h3>
+            <p><strong>Date:</strong> 08 July 2025</p>
+            <p className="status status-cancelled">Cancelled</p>
+          </div>
+        </div>
+
       </div>
     </div>
   );

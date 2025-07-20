@@ -61,16 +61,16 @@
 }
 
 .status-pending {
-  background-color: #fbc02d; /* yellow */
+  background-color: #fbc02d; 
   color: #000;
 }
 
 .status-completed {
-  background-color: #4caf50; /* green */
+  background-color: #4caf50; 
 }
 
 .status-cancelled {
-  background-color: #f44336; /* red */
+  background-color: #f44336;
 }
 
 

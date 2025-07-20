@@ -1,5 +1,11 @@
+*{
+  text-decoration: none;
+
+}
+
 .booked{
   margin: 20px 70px;
+
 }
 
 .booked-section {
@@ -60,6 +66,8 @@
     font-weight: 600;
     color: #222;
     min-width: 200px;
+    text-decoration: none;
+
   }
   
   .rating {
@@ -69,6 +77,7 @@
     align-items: center;
     gap: 5px;
     margin: 5px;
+
     
   }
   
