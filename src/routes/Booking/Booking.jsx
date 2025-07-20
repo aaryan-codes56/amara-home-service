@@ -1,48 +1,37 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Booking.css';
 
-const initialBookings = [
-  {
-    service: "AC Repair & Installation",
-    date: "2025-05-10",
-    status: "Completed"
-  },
-  {
-    service: "Plumbing Services",
-    date: "2025-04-25",
-    status: "Completed"
-  },
-  {
-    service: "Electrical Fixes",
-    date: "2025-04-01",
-    status: "Cancelled"
-  },
-];
-
 const Booking = () => {
-  const [bookings, setBookings] = useState(initialBookings);
-
-  const cancelBooking = (index) => {
-    const updatedBookings = bookings.filter((_, i) => i !== index);
-    setBookings(updatedBookings);
-  };
-
   return (
-    <div className="bookings-page">
+    <div className="bookings-container">
       <h2>My Bookings</h2>
+
       <div className="bookings-list">
-        {bookings.length === 0 ? (
-          <p>No bookings found.</p>
-        ) : (
-          bookings.map((booking, index) => (
-            <div key={index} className="booking-card">
-              <h3>{booking.service}</h3>
-              <p>Date: {booking.date}</p>
-              <p>Status: <span className={`status ${booking.status.toLowerCase()}`}>{booking.status}</span></p>
-              <button className="cancel-btn" onClick={() => cancelBooking(index)}>Cancel Booking</button>
-            </div>
-          ))
-        )}
+
+        <div className="booking-card">
+          <div className="booking-info">
+            <h3>Plumbing Service</h3>
+            <p><strong>Date:</strong> 20 July 2025</p>
+            <p className="status status-pending">Pending</p>
+          </div>
+        </div>
+
+        <div className="booking-card">
+          <div className="booking-info">
+            <h3>Electrician Service</h3>
+            <p><strong>Date:</strong> 18 July 2025</p>
+            <p className="status status-completed">Completed</p>
+          </div>
+        </div>
+
+        <div className="booking-card">
+          <div className="booking-info">
+            <h3>AC Repair Service</h3>
+            <p><strong>Date:</strong> 15 July 2025</p>
+            <p className="status status-cancelled">Cancelled</p>
+          </div>
+        </div>
+
       </div>
     </div>
   );

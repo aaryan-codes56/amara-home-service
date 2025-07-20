@@ -18,7 +18,6 @@ const ApplianceRepair = () => {
     <div className="appliance-repair">
       <div className="appliance-repair-title">
         <h2>Appliance repair & service</h2>
-        <button className="see-all-btn">See all</button>
       </div>
 
       <div className="appliance-repair-cards">

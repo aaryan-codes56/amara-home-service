@@ -24,7 +24,6 @@ const Explore = () => {
           <p className='service-name'>Women's Salon & Spa</p>
       </div> </Link>
 
-    
       <Link to='/services'><div className="service-card">
           <img src={men_img} alt="" className='service-icon'/>
           <p className='service-name'>Men's Salon & Massage</p>
@@ -35,27 +34,44 @@ const Explore = () => {
           <img src={ac_img} alt="" className='service-icon'/>
           <p className='service-name'>AC & Appliance Repair</p>
       </div></Link>
+
+      <Link to='/services'>
       <div className="service-card">
           <img src={clean_img} alt="" className='service-icon'/>
           <p className='service-name'>Cleaning & Pest Control</p>
       </div>
+      </Link>
+
+      <Link to='/services'>
       <div className="service-card">
           <img src={elect_img} alt="" className='service-icon'/>
           <p className='service-name'>Electrician & Plumber</p>
       </div>
+        </Link>
+
+
+        <Link to='/services'>
       <div className="service-card">
           <img src={water_img} alt="" className='service-icon'/>
           <p className="service-tag">NEW</p>
           <p className='service-name'>Native Water Purifier</p>
       </div>
+        </Link>
+
+        <Link to='/services'>
       <div className="service-card">
           <img src={paint_img} alt="" className='service-icon'/>
           <p className='service-name'>Walls & Rooms Painting</p>
       </div>
+        </Link>
+
+        <Link to='/services'>
       <div className="service-card">
           <img src={carp_img} alt="" className='service-icon'/>
           <p className='service-name'>Carpenter</p>
       </div>
+        </Link>
+        
       </div>
       <Link to='/services'><button className="explore-btn">Explore All Services</button></Link>
     </div>

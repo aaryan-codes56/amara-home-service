@@ -3,27 +3,32 @@
   background-color: #ffffff;
   text-align: center;
   min-height: 100vh;
+  margin: 50px;
 }
 
 .myservices-container h2 {
   font-size: 2.5rem;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #0f5a45;
 }
 
 .myservices-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
+  gap: 20px;
   padding: 0 20px;
+  justify-items: center; /* ensures the cards stay centered */
 }
 
 .myservices-card {
   background-color: #ffffff;
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-  padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 8px;
+  margin: 8px;
+  width: 280px;
+  flex-shrink: 0;
 }
 
 .myservices-card:hover {
@@ -33,117 +38,19 @@
 
 .myservices-card img {
   width: 100%;
-  height: 220px;
+  height: 250px;
   object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .myservices-card h3 {
   font-size: 1.4rem;
   color: #0f5a45;
-  margin-bottom: 10px;
+  margin: 12px 0 8px;
 }
 
 .myservices-card p {
   font-size: 0.98rem;
   color: #333;
-  margin-bottom: 16px;
-}
-
-.myservices-card button {
-  background-color: #0f5a45;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.myservices-card button:hover {
-  background-color: #0d4c3a;
-}
-
-/* Modal Styles */
-.myservices-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.myservices-form {
-  background-color: #ffffff;
-  padding: 40px 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  width: 90%;
-  max-width: 450px;
-  animation: fadeIn 0.3s ease-in-out;
-}
-
-.myservices-form h3 {
-  margin-bottom: 25px;
-  color: #0f5a45;
-  font-size: 1.8rem;
-  text-align: center;
-}
-
-.myservices-form form {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.myservices-form input,
-.myservices-form select {
-  padding: 12px 14px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  outline: none;
-  transition: border-color 0.3s ease;
-}
-
-.myservices-form input:focus,
-.myservices-form select:focus {
-  border-color: #0f5a45;
-}
-
-.myservices-form button {
-  padding: 12px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  background-color: #0f5a45;
-  color: white;
-  transition: background 0.3s ease;
-}
-
-.myservices-form button:hover {
-  background-color: #0d4c3a;
-}
-
-.myservices-form .cancel-btn {
-  background-color: #e0e0e0;
-  color: #333;
-  border: none;
-}
-
-.myservices-form .cancel-btn:hover {
-  background-color: #c2c2c2;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
+  margin-bottom: 12px;
 }

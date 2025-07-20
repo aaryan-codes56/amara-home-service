@@ -1,9 +1,36 @@
 import React from 'react';
 import './Contact.css';
 
+
+
 const Contact = () => {
+  const [result, setResult] = React.useState("");
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "ff0f3486-14d4-4f6d-b233-ffb398a4973b");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
     <div className="contact-container">
+      <form onSubmit={onSubmit}>
       <div className="contact-form">
         <h1>Contact us</h1>
 
@@ -23,6 +50,8 @@ const Contact = () => {
 
         <button type="submit">Submit</button>
       </div>
+      </form>
+      <span>{result}</span>
 
       <div className="contact-info-cards">
         <div className="info-card">
